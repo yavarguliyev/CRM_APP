@@ -1,0 +1,20 @@
+version: '3'
+services:
+  mongo:
+    container_name: mongo_db
+    image: mongo:4.2-bionic
+    env_file:
+      - ./.env
+    ports:
+      - '${MONGO_PORT}:27017'
+    restart: always
+    networks:
+      - common
+
+volumes:
+  mongo:
+    driver: local
+
+networks:
+  common:
+    external: true
