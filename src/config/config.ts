@@ -7,7 +7,7 @@ const config = {
   MONGO_INITDB_ROOT_USERNAME:
     env.MONGO_INITDB_ROOT_USERNAME || 'command_line_app',
   MONGO_INITDB_ROOT_PASSWORD:
-    env.MONGO_INITDB_ROOT_PASSWORD || 'command_line_app_0123456789',
+    env.MONGO_INITDB_ROOT_PASSWORD || 'skfdl*kjr1!AD1l12kf034939',
 };
 
 export default config;

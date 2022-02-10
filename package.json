@@ -4,6 +4,10 @@
   "description": "Backend_MAYD_Apollon",
   "main": "./dist/index.js",
   "types": "./dist/index.d.js",
+  "preferGlobal": true,
+  "bin": {
+    "transaction": "./dist/index.js"
+  },
   "files": [
     "dist/**/*"
   ],
@@ -28,9 +32,8 @@
     "url": "git+https://github.com/yavarguliyev/Backend-_MAYD_Apollon.git"
   },
   "keywords": [
-    "input",
-    "console",
-    "output"
+    "cli",
+    "transaction-cli"
   ],
   "author": "Yavar Guliyev",
   "license": "MIT",
