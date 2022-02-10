@@ -1,5 +1,5 @@
 # CRM_APP
 
 ```javascript
-npm link - to set up the global cli
+npm link - to set up the global CLI
 ```
